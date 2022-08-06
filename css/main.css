@@ -1486,8 +1486,11 @@ header .header-logo a {
  * header section 
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
-  header .header-logo a {
+  header{
+    top: 0;
     left: 0;
+  }
+  header .header-logo a {
     width: 150px;
     height: 56.16px;
     background-size: 150px 56.16px;

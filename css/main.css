@@ -1487,13 +1487,13 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header{
-    top: 0;
-    left: 0;
+    top: -10px;
+    left: -10px;
   }
   header .header-logo a {
-    width: 150px;
-    height: 56.16px;
-    background-size: 150px 56.16px;
+    width: 100px;
+    height: 37.46px;
+    background-size: 100px 37.46px;
   }
 }
 @media only screen and (max-width: 400px) {
